@@ -1,0 +1,143 @@
+html,
+body,
+div,
+section,
+article,
+input,
+h1,
+h2,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  all: unset;
+  text-align: center;
+}
+
+body{
+  position: relative;
+  background-color: #352F44;
+  /* background-color: #96B6C5; */
+}
+
+h1 {
+  color: #FAF0E6;
+  text-align: center;
+  padding: 40px 0;
+}
+
+h2 {
+  color: #FAF0E6;
+  width: 100%;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+
+/* article 내용 */
+
+article{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 50px;
+  box-sizing: border-box;
+}
+
+label {
+  color: #FAF0E6;
+  font-size: 2rem;
+}
+
+textarea, input {
+  border: 5px solid #B9B4C7;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 10px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+textarea:focus, input:focus {
+  border: 5px solid #D2E0FB;
+}
+
+textarea::placeholder, input::placeholder {
+  color: #c8c8c8;
+}
+
+textarea {
+  height: 200px;
+  resize: vertical;
+  margin: 5px 0;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.count-wrap {
+  color: #FAF0E6;
+  width: 100%;
+  text-align: end;
+}
+
+.input-wrap {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.title-save, .button-add {
+  color: #FAF0E6;
+  background-color: #5C5470;
+  padding: 0 10px;
+  border: 2px solid #B9B4C7;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.title-save:hover {
+  background-color: #FAF0E6;
+  color: #352F44;
+}
+
+.none {
+  display: none;
+}
+
+.bar {
+  margin-top: 40px;
+  width: 10%;
+  margin: 20px auto 0;
+  height: 1px;
+  background-color: #5C5470;
+}
+/* article 내용 끝*/
+
+.button-add-wrap {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.button-add {
+  color: #352F44;
+  background-color: #FAF0E6;
+  width: 80%;
+  /* margin-top: 100px; */
+  box-sizing: border-box;
+}
+
+.button-add:hover {
+  color: #FAF0E6;
+  background-color: #5C5470;
+}
+

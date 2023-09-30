@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>글자수 세기</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>글자 수 세기</h1>
+    <body>
+      <section>
+        <article>
+          <div class="input-wrap">
+            <input
+              type="text"
+              id="myTitle"
+              placeholder="문항의 제목을 입력하세요"
+            />
+            <h2 id="myTitleDisplay" class="none"></h2>
+            <button id="buttonSave" class="title-save">제목 저장</button>
+          </div>
+          <textarea
+            id="myTextarea"
+            placeholder="문항의 내용을 작성하세요"
+          ></textarea>
+          <div class="count-wrap">
+            <div>
+              (
+              <span id="charCountDisplay">0</span>
+              /1000)
+            </div>
+          </div>
+          <div class="bar"></div>
+        </article>
+      </section>
+      <div class="button-add-wrap">
+        <button id="buttonAdd" class="button-add">문항 추가하기</button>
+      </div>
+    </body>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
